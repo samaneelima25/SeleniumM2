@@ -18,12 +18,12 @@ public class ImplicitlySorting {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.swiggy.com/city/hyderabad");
 		 List<WebElement> topRestaurants = driver.findElements(By.xpath("//h2[text()='Top restaurant chains in Hyderabad']//ancestor::div[@class='sc-jPQLIr iAeVkw']//descendant::div[@class='sc-beySbM iKLEMo']"));
-
-	  for ( WebElement restaurant : topRestaurants) {
-		  
-		  
-    List<String> Originallist=   restaurant.getText().collect(Collectors.toList());
-		
+//
+//	  for ( WebElement restaurant : topRestaurants) {
+//		  
+//		  
+//    List<String> Originallist=   restaurant.getText().collect(Collectors.toList());
+//		
 		
 		
 	
